@@ -1,0 +1,85 @@
+body {
+    background-color: #222222;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#DragonStorm1 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.menu-block {
+    background-color: #333333;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #FFD700;
+}
+
+h3 {
+    color: #00FFCC;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+ul {
+    color: #E0E0E0;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.title-highlight {
+    color: #FF4500;
+    text-decoration: underline;
+}
+
+.dragon-highlight {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.mode-text {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.game-title {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.selection-container {
+    margin-bottom: 25px;
+}
+
+.option-block {
+    display: inline-block;
+    background-color: #444444;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.option-block:hover {
+    background-color: #FF4500;
+}
