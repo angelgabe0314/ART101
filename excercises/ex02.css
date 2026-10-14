@@ -1,7 +1,13 @@
 body {
+    background-image: url("images/DragonStorm.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-color: #222222;
     font-family: sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 20px;
 }
 
 .container {
@@ -10,14 +16,8 @@ body {
     margin: 0 auto;
 }
 
-#DragonStorm1 {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-}
-
 .menu-block {
-    background-color: #333333;
+    
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
@@ -25,10 +25,11 @@ body {
 
 h1 {
     color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 h2 {
-    color: #FFD700;
+    color: #151516;
 }
 
 h3 {
@@ -37,6 +38,7 @@ h3 {
 
 p {
     color: #FFFFFF;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 ul {
