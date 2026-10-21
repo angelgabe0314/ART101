@@ -21,6 +21,7 @@ body {
 h1 {
     color: #9264b7;
     font-size: 44px;
+    font-family: "Fredoka"
     /* TODO 3: change this header's font to "Fredoka"
        (the font is already loaded in dis03.html; you just need the font-family property) */
 }
