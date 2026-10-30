@@ -1,3 +1,10 @@
+// this function expects a color
+function paintPage (color) {
+    $("body").css( "background-color", color ); 
+}
+
+paintPage("yellow"); 
+
 // the clicker button progrm 
 
 // we create a variable named "count", the initia; value is 0
@@ -28,7 +35,8 @@ $("#needy-button").click( function(){
 
     $("#needy-button").html( buttonText ); 
 
-    $("body").css( "background-color", colors[colorsCount] ); 
+    paintPage(colors[colorsCount]);
+    //$("body").css( "background-color", colors[colorsCount] ); 
 
     //$("body").append(" <img width='50' src='" +colors[colorsCount]  +".jpg'>" );
 
@@ -37,20 +45,34 @@ $("#needy-button").click( function(){
     else if ( count >= 13 ) {  $("#needy-button").after("<p>my mood is... really agitated</p>");   }
     else if (count >= 5) { $("#needy-button").after("<p>my mood is... agitated</p>");   }
 
-    // if(  (count >= 5)  && ( count < 13)  ) {  $("#needy-button").after("<p>my mood is... agitated</p>");   }
-
-    // if( count >= 13 ) {  $("#needy-button").after("<p>my mood is... really agitated</p>");   }
-
-    // if( count >= 16 ) {  $("#needy-button").after("<p>my mood is... wild!</p>");   }
-
-
 
     colorsCount = colorsCount +1;  
 
     // if we are run out of colors start fron the first one anew
     if ( colorsCount >= 8 ) { colorsCount = 0;  } ;
     
-    
 
+});
+
+
+
+$("#green").click( function(){  
+       
+   console.log("green was clicked");
+   paintPage("green");
+
+});
+
+$("#orange").click( function(){  
+       
+   console.log("orange was clicked");
+   paintPage("orange");
+
+});
+
+$("#pink").click( function(){  
+       
+   console.log("pink was clicked");
+   paintPage("pink");
 
 });
